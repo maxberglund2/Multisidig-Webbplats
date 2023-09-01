@@ -1,0 +1,25 @@
+body{
+    background-color: darkgray;
+}
+.fsection {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+div{
+    padding: 20px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}

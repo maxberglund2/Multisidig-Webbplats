@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <form method="get" action="#">
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+        <textarea placeholder="hello there..." id="helloText" cols="30" rows="10"></textarea>
+        <label for="checkbox">Accept 1st:</label>
+        <input type="checkbox" id="checkbox">
+        <br>
+        <select name="Computers" multiple size="4">
+            <optgroup label="PC Brands">
+              <option value="Intel">Intel</option>
+              <option value="Ryzen">Ryzen</option>
+            </optgroup>
+            <optgroup label="Laptop Brands">
+              <option value="Apple">Apple</option>
+              <option value="Legion">Legion</option>
+              <option value="Yoga">Yoga</option>
+            </optgroup>
+          </select>
+        <label for="radio">Accept 2nd:</label>
+        <input type="radio" id="radio">
+        <br>
+        <input placeholder="password here" type="password" name="pword" id="pword">
+        <br>
+        <input type="email" name="emailinput" id="emailinput" placeholder="email">
+        <br>
+        <br>
+        <input type="submit" value="Ok" id="submit">
+    </form>
+    <a href="../index.html">Go Back Home...</a>
+</body>
+</html>
